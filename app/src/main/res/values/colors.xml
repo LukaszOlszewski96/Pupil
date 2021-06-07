@@ -7,4 +7,5 @@
     <color name="colorLabelError">#f06259</color>
     <color name="buttonColor">#c8a703</color>
     <color name="transparent">#00000000</color>
+    <color name="stepper">#45C8A703</color>
 </resources>

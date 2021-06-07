@@ -78,7 +78,7 @@ class Login : AppCompatActivity() {
             val task: Task<GoogleSignInAccount> = GoogleSignIn.getSignedInAccountFromIntent(data)
             try {
                 val account = task.getResult(ApiException::class.java)
-                if (account != null) {
+                if (account != null ) {
                     googleFirebaseAuth(account)
                 }
             } catch (e: ApiException) {

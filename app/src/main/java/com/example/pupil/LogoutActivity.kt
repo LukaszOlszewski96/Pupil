@@ -25,6 +25,7 @@ class LogoutActivity : AppCompatActivity() {
     {
         val onLogoutSuccess : () -> Unit = {
             transitionTo_LoginActivity()
+            toast("Logout success!")
         }
 
         val onLogoutFailure: () -> Unit = {
