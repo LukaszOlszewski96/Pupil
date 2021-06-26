@@ -25,6 +25,6 @@ class ReportPetDescriptionActivity : AppCompatActivity() {
 
     //Function to next screen
     private fun nextBtn(){
-        startActivity(Intent(this, ReportPetDescriptionActivity :: class.java))
+        startActivity(Intent(this, ReportPetLocationActivity :: class.java))
     }
 }
